@@ -102,7 +102,7 @@ export default function Home() {
                 translateZ="50"
                 className=""
               >
-                <img src="public/logo2.png" alt="shoe" className='h-full p-3 ' />
+                <img src="/logo2.png" alt="shoe" className='h-full p-3 ' />
               
               </CardItem>
             </CardBody>
