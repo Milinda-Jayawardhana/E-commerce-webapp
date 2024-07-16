@@ -10,7 +10,7 @@ export default function CardDemo() {
             translateZ="50"
             className=""
           >
-            <img src="/logo2.PNG" alt="shoe" className='h-full p-2 ' />
+            <img src="/mn1.png" alt="shoe" className='h-full p-2 ' />
           
           </CardItem>
         </CardBody>
