@@ -1,0 +1,29 @@
+{
+  "routes":[
+
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/contact",
+      "dest": "/"
+    },
+    {
+      "src": "/shop",
+      "dest": "/"
+    },
+    {
+      "src": "/cart",
+      "dest": "/"
+    },
+    {
+      "src": "/blog",
+      "dest": "/"
+    },
+    {
+      "src": "/image/:id",
+      "dest": "/"
+    }
+  ]
+}
