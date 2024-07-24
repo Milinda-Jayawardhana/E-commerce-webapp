@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className='flex flex-col items-start justify-start pt-[70px] md:pt-0 '>
+          <div className='flex flex-col  items-start justify-start pt-[70px] md:pt-0 pl-4 md:pl-0'>
             <h1 className='text-xl md:text-2xl'>About</h1>
             <h2 className='pt-4 text-white/60 text-[14px] md:text-[18px]'>About Us</h2>
             <h2 className='pt-2 text-white/60 text-[14px] md:text-[18px] '>Delivery Information</h2>
@@ -44,7 +44,7 @@ export default function Footer() {
             <h2 className='pt-2 text-white/60 text-[14px] md:text-[18px]'>Help</h2>
           </div>
 
-          <div className='flex flex-col items-start justify-start gap-2 '>
+          <div className='flex flex-col items-start justify-start gap-2 pl-4 md:pl-0'>
             <h1 className='text-xl md:text-2xl'> Install App</h1>
             <h2 className='pt-4 text-white/60 text-[14px] md:text-[18px]'>From App store & Google Play</h2>
             <div className='flex items-center gap-4 px-2 bg-gray-600 rounded-lg'>
