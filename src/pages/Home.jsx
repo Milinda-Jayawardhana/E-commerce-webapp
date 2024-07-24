@@ -150,10 +150,10 @@ export default function Home() {
         <ImageSwiper></ImageSwiper>
       </div>
       
-      <div className='container py-8 mx-auto shadow-custom-dark bg-black/40'>
-        <div className='flex flex-col items-center justify-center gap-4'>
+      <div className='container py-4 mx-auto md:py-8 shadow-custom-dark bg-black/40'>
+        <div className='flex flex-col items-center justify-center gap-2 md:gap-4'>
           <h1 className='font-sans text-2xl text-green-600 md:text-3xl '> Repair Services</h1>
-          <h2 className='pb-4 text-3xl font-semibold md:text-5xl'> Up to <span className='font-extrabold text-green-700'>70%</span> off - All Nike Shoes</h2>
+          <h2 className='pb-4 text-3xl font-semibold text-center md:text-5xl'> Up to <span className='font-extrabold text-green-700'>70%</span> off - All Nike Shoes</h2>
           <Button className='w-[30%] text-[16px] font-bold bg-green-600 hover:text-white hover:bg-green-950'>Exploer Now</Button>
         </div>
       </div>
