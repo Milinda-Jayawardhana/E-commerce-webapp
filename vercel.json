@@ -22,7 +22,7 @@
       "dest": "/"
     },
     {
-      "src": "/image/:id",
+      "src": "/image",
       "dest": "/"
     },
     {
