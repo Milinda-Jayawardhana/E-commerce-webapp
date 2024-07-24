@@ -118,15 +118,15 @@ export default function Home() {
       </div>
 
       <div className=''>
-        <div className='container py-8 mx-auto '>
-          <ul className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-[15px]  justify-center items-center'>
+        <div className='container py-4 mx-auto md:py-8 '>
+          <ul className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-[10px] md:gap-[15px]  justify-center items-center'>
             {features.items.map((item, index)=>{
               return(
                 <li key={index} className=' bg-black/40 h-[150px] py-6 px-10 rounded-xl flex flex-col justify-center items-center gap-2 hover:bg-gray-950'>
-                  <div className='pt-4 text-6xl text-gray-600'>
+                  <div className='pt-4 text-5xl text-gray-600 md:text-6xl'>
                     {item.image}
                   </div>
-                  <h3 className=' text-xl max-w-[260px] min-h-[60px] text-center font-semibold text-green-600'>{item.title}</h3>
+                  <h3 className='text-[17px] md:text-xl max-w-[260px] min-h-[60px] text-center font-semibold text-green-600'>{item.title}</h3>
                 </li>
               )
             })}
