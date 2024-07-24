@@ -140,7 +140,7 @@ export default function Home() {
         
       <div className='container pt-[40px] mx-auto '>
         <div className='flex flex-col items-center justify-center gap-6 '>
-          <h1 className='text-5xl font-semibold'>Featured Products</h1>
+          <h1 className='text-3xl font-semibold md:text-5xl'>Featured Products</h1>
           <span className='pb-4 text-xl'>Best quality shoes</span>
           
         </div>
@@ -152,15 +152,15 @@ export default function Home() {
       
       <div className='container py-8 mx-auto shadow-custom-dark bg-black/40'>
         <div className='flex flex-col items-center justify-center gap-4'>
-          <h1 className='font-sans text-3xl text-green-600 '> Repair Services</h1>
-          <h2 className='pb-4 text-5xl font-semibold'> Up to <span className='font-extrabold text-green-700'>70%</span> off - All Nike Shoes</h2>
+          <h1 className='font-sans text-2xl text-green-600 md:text-3xl '> Repair Services</h1>
+          <h2 className='pb-4 text-3xl font-semibold md:text-5xl'> Up to <span className='font-extrabold text-green-700'>70%</span> off - All Nike Shoes</h2>
           <Button className='w-[30%] text-[16px] font-bold bg-green-600 hover:text-white hover:bg-green-950'>Exploer Now</Button>
         </div>
       </div>
 
       <div className='container pt-[50px] mx-auto'>
         <div className='flex flex-col items-center justify-center gap-6 '>
-          <h1 className='text-5xl font-semibold'>New Arrivals</h1>
+          <h1 className='text-3xl font-semibold md:text-5xl'>New Arrivals</h1>
           
         </div>
       </div>
