@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className='flex flex-col items-start justify-start '>
+          <div className='flex flex-col items-start justify-start pt-[70px] md:pt-0 '>
             <h1 className='text-2xl'>About</h1>
             <h2 className='pt-4 text-white/60'>About Us</h2>
             <h2 className='pt-2 text-white/60 '>Delivery Information</h2>

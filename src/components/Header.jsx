@@ -9,8 +9,8 @@ import { ThemeProvider } from './ThemeContext';
 export default function Header() {
   return (
     <ThemeProvider>
-      <div className='py-8 xl:py-12'>
-        <div className='container sticky flex items-center justify-between mx-auto'>
+      <div className='py-6 xl:py-10'>
+        <div className='container flex items-center justify-between mx-auto'>
           <Link to ='/'>
             <h1 className='text-5xl font-bold '>MJ
               <span className='text-xl bold'>shopping</span>
@@ -18,7 +18,7 @@ export default function Header() {
             </h1>
           </Link>
 
-          <div className='sticky top-0 z-10 items-center hidden gap-8 md:flex'>
+          <div className='z-10 items-center hidden gap-8 md:flex'>
             <Nav />
           </div>
 

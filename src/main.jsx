@@ -9,7 +9,6 @@ import Contact from './pages/Contact';
 import Shop from './pages/Shop';
 import ImageDetail from './components/ImageDetail.jsx';
 import ImageSwiper from './components/ImageSwiper.jsx';
-import ScrollToTop from './components/ScrollToTop.jsx';
 import Cart from './components/Cart/Cart.jsx';
 import { CartProvider } from './components/Cart/CartContext.jsx';
 
@@ -35,7 +34,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CartProvider> {/* Wrap the RouterProvider with CartProvider */}
       <RouterProvider router={router}>
-        <ScrollToTop /> {/* Ensure ScrollToTop is included here */}
+        
+        
       </RouterProvider>
     </CartProvider>
   </React.StrictMode>,

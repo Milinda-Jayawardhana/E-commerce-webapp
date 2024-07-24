@@ -3,6 +3,7 @@ import Header from './components/Header'
 import { Outlet,useLocation} from 'react-router-dom';
 import React, { useEffect } from 'react';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -33,7 +34,9 @@ function App() {
 
   return (
     <div className='min-h-screen text-black bg-white dark:bg-gray-900 dark:text-white'>
-      <Header></Header>
+      <div className='sticky top-0 z-50 bg-gray-900'><Header></Header></div>
+      
+      <ScrollToTop />
       <Outlet />
       <Footer></Footer>
     </div>
