@@ -6,24 +6,29 @@
       "dest": "/"
     },
     {
-      "src": "/contact",
+      "src": "contact",
       "dest": "/"
     },
     {
-      "src": "/shop",
+      "src": "shop",
       "dest": "/"
     },
     {
-      "src": "/cart",
+      "src": "cart",
       "dest": "/"
     },
     {
-      "src": "/blog",
+      "src": "blog",
       "dest": "/"
     },
     {
-      "src": "/image/:id",
+      "src": "image/:id",
+      "dest": "/"
+    },
+    {
+      "src": "images",
       "dest": "/"
     }
+    
   ]
 }
